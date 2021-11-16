@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap);
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #333;
+  margin: 0;
+}
+
+.pink {
+  color: #f1356d;
+}
+
+.bg-pink {
+  background: #f1356d;
+}
+
+nav li:hover {
+  color: #f1356d;
+}
+nav li:nth-child(2) {
+  background: #f1356d;
+  color: white;
+}
+
+form label, form input, form textarea {
+  display: block;
+  width: 100%;
+}
+
+input:focus, textarea:focus, button:focus {
+  outline-width: 0;
+  box-shadow: 0 0 5px #51cbee;
+  border: 1px solid #51cbee;
+}
+
+a:focus {
+  outline-width: 0;
+}
